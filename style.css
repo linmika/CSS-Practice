@@ -1,0 +1,82 @@
+
+img{
+  height:100px;
+}
+
+div img{
+  /*框線『寬度』『實現虛線』『顏色』*/
+  border: 50px dash red;
+}
+
+/*子代選擇器*/
+div>img {
+  width: 400px;
+}
+/*移上去會從灰色變成黑色*/
+a{
+  color:#ccc;
+}
+
+a:hover{
+  color:black;
+}
+
+.button{
+  color:#ccc;
+  border: 1px solid #ccc;
+
+  /*padding:內邊距*/
+  padding: 20px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 50px
+  display:inline-block;
+}
+.button:hover{
+  color:black;
+  border: 1px solid black;
+  padding: 20px;
+  background-color:#eee;
+  text-decoration: none;
+  border-radius: 5px;
+  margin:50px;
+  display: inline-block;
+}
+
+
+
+#first-div{
+  color: #ccc;
+}
+#second-div{
+  color: #125649;
+}
+#third-div{
+  color: #225780;
+}
+/* CLASEE SECTOR*/
+.text-center{
+   text-align: center
+}
+/*Element Selector*/
+h1 {
+     text-decoration: underline;
+}
+/*Try*/
+.can-fly{
+  color:red;
+}
+/*選擇兩個class(OR)*/
+.can-fly,
+.bug{
+  color:green;
+}
+/*選擇兩個class(AND)*/
+.animal.run{
+text-decoration: underline;
+}
+/*組合不同的選擇器(AND)*/
+div.animal{
+background-color: yellow;
+}
